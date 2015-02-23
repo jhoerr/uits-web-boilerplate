@@ -746,7 +746,32 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 }
 
 /*------------------------------------------------------------------------------
+    
+    White space classes use these to add consistent vertical white space
+    when needed.
+    
+------------------------------------------------------------------------------*/
+
+.white-space-sm-top {
+    padding-top: 1em;
+}
+
+.white-space-sm-bottom {
+    padding-bottom: 1em;
+}
+
+.white-space-lg-top {
+    padding-top: 2em;
+}
+
+.white-space-lg-bottom {
+    padding-bottom: 2em;
+}
+
+/*------------------------------------------------------------------------------
+    
     Utility classes
+
 ------------------------------------------------------------------------------*/
 .code {
   padding: .15em;
